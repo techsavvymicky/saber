@@ -102,17 +102,17 @@ export function SiteNavigationMenu() {
                     description={"Improved Efficiency in Property Registration"}
                     subItems={[
                       {
-                        href: "#",
+                        href: "/business-reforms/c-of-o-procedure",
                         Icon: IconFileInvoice,
                         title: "Process of Obtaining C of O",
                       },
                       {
-                        href: "#",
+                        href: "/business-reforms/construction-permit-procedure",
                         Icon: IconFileLike,
                         title: "Process of Obtaining Construction Permit",
                       },
                       {
-                        href: "#",
+                        href: "/business-reforms/c-of-o-statistics",
                         Icon: IconFileAnalytics,
                         title: "C of O Statistics",
                       },

@@ -105,7 +105,7 @@ export const SiteFooter = () => {
       </h2>
       <div className="mb-16">
         <Logo />
-        <p className="mt-10 max-w-2xl text-sm/6 text-gray-600">
+        <p className="mt-10 max-w-2xl text-sm/6 text-muted-foreground">
           Taraba is a state in north-eastern Nigeria; named after the Taraba
           River, which traverses the southern part of the state, it is known as
           &quot;Nature&apos;s Gift to the Nation&quot;.
@@ -113,14 +113,14 @@ export const SiteFooter = () => {
         <hr className="mt-10 border-t border-zinc-100" />
         <div className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
           <div>
-            <h3 className="text-sm/6 font-semibold text-gray-900">
+            <h3 className="text-sm/6 font-semibold text-foreground">
               Official Links
             </h3>
             <ul role="list" className="mt-4 space-y-4">
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Government Portal
                 </a>
@@ -128,7 +128,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Tourism Board
                 </a>
@@ -136,7 +136,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   State House
                 </a>
@@ -144,7 +144,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Public Services
                 </a>
@@ -152,7 +152,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Local Government Areas
                 </a>
@@ -160,14 +160,14 @@ export const SiteFooter = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-sm/6 font-semibold text-gray-900">
+            <h3 className="text-sm/6 font-semibold text-foreground">
               Navigations
             </h3>
             <ul role="list" className="mt-4 space-y-4">
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Home
                 </a>
@@ -175,7 +175,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Financial Statements
                 </a>
@@ -183,7 +183,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Budget
                 </a>
@@ -191,7 +191,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Business Reforms
                 </a>
@@ -199,7 +199,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Business Licensing & Tender
                 </a>
@@ -207,7 +207,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Procedures & Guidelines
                 </a>
@@ -215,7 +215,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Publications
                 </a>
@@ -223,14 +223,14 @@ export const SiteFooter = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-sm/6 font-semibold text-gray-900">
+            <h3 className="text-sm/6 font-semibold text-foreground">
               Government
             </h3>
             <ul role="list" className="mt-4 space-y-4">
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   State Governor
                 </a>
@@ -238,7 +238,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   State Assembly
                 </a>
@@ -246,7 +246,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Ministries
                 </a>
@@ -254,7 +254,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Judicial Service
                 </a>
@@ -262,7 +262,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Education Board
                 </a>
@@ -270,14 +270,14 @@ export const SiteFooter = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-sm/6 font-semibold text-gray-900">
+            <h3 className="text-sm/6 font-semibold text-foreground">
               Quick Links
             </h3>
             <ul role="list" className="mt-4 space-y-4">
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   COVID-19 Updates
                 </a>
@@ -285,7 +285,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Job Openings
                 </a>
@@ -293,7 +293,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Press Releases
                 </a>
@@ -301,7 +301,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Emergency Contacts
                 </a>
@@ -309,7 +309,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   FAQs
                 </a>
@@ -317,7 +317,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Online Payment
                 </a>
@@ -325,7 +325,7 @@ export const SiteFooter = () => {
               <li className="group">
                 <a
                   href="#"
-                  className="text-sm/6 text-gray-600 hover:text-gray-900"
+                  className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Help & Contact
                 </a>

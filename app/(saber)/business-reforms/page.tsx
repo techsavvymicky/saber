@@ -31,7 +31,7 @@ const files = [
     name: "C of O Schedule Fee",
     description: "Published: 26th August 2024",
     tag: "2024",
-    fileUrl: "",
+    fileUrl: "business-reforms/c-of-o-procedure",
     icon: (
       <IconCurrencyNaira strokeWidth={1} className="h-10 w-10 flex-shrink-0" />
     ),
@@ -74,11 +74,11 @@ export default function Page() {
           <h1 className="text-base font-semibold leading-7 text-emerald-600">
             Business Reforms
           </h1>
-          <p className="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-black sm:text-5xl sm:leading-[3.5rem]">
+          <p className="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-foreground sm:text-5xl sm:leading-[3.5rem]">
             File Archives of the State&apos;s Business Reforms
           </p>
 
-          <p className="mt-4 text-base leading-7 text-slate-600">
+          <p className="mt-4 text-base leading-7 text-muted-foreground">
             Discover Taraba State&apos;s business reforms through our
             comprehensive archive. Browse, preview, or download files that
             document the state&apos;s efforts to enhance economic growth,
@@ -99,14 +99,14 @@ export default function Page() {
                 <div className="flex w-full items-center justify-between space-x-6 p-6">
                   <div className="flex-1 truncate">
                     <div className="flex items-center space-x-3">
-                      <h3 className="truncate text-sm font-medium text-gray-900">
+                      <h3 className="truncate text-sm font-medium text-foreground">
                         {file.name}
                       </h3>
                       <span className="inline-flex flex-shrink-0 items-center rounded-full bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
                         {file.tag}
                       </span>
                     </div>
-                    <p className="mt-1 truncate text-sm text-gray-500">
+                    <p className="mt-1 truncate text-sm text-muted-foreground">
                       {file.description}
                     </p>
                   </div>
@@ -117,7 +117,7 @@ export default function Page() {
                     <div className="flex w-0 flex-1">
                       <a
                         href={file.fileUrl}
-                        className="relative -mr-px inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-bl-lg border border-transparent py-4 text-sm font-semibold text-gray-900"
+                        className="relative -mr-px inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-bl-lg border border-transparent py-4 text-sm font-semibold text-foreground"
                       >
                         <IconScanEye
                           strokeWidth={1.5}
@@ -130,7 +130,7 @@ export default function Page() {
                     <div className="-ml-px flex w-0 flex-1">
                       <a
                         href={file.fileUrl}
-                        className="relative inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-br-lg border border-transparent py-4 text-sm font-semibold text-gray-900"
+                        className="relative inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-br-lg border border-transparent py-4 text-sm font-semibold text-foreground"
                       >
                         <IconDownload
                           strokeWidth={1.5}
