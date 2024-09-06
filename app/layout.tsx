@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className="h-full" lang="en">
-      <body className="h-full w-full overflow-x-hidden font-inter">
+      <body className="h-full w-full overflow-x-hidden">
         <SiteHeader />
         {children}
         <SiteFooter />
