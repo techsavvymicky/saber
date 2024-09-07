@@ -180,7 +180,7 @@ export function SiteNavigationMenu() {
                         title: "Vehicle Inspection Process & Procedure",
                       },
                       {
-                        href: "#",
+                        href: "/business-reforms/eia-guidelines",
                         Icon: IconBuildingSkyscraper,
                         title:
                           "Ministry of Environment Processes & Guideline for EIA",
