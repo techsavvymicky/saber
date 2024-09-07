@@ -205,7 +205,7 @@ export function SiteNavigationMenu() {
                         title: "Process for Grieviance & Redress Mechanism",
                       },
                       {
-                        href: "#",
+                        href: "/business-reforms/trade-fees-schedule",
                         Icon: IconListTree,
                         title: "Schedule of Trade related Fees & Levies",
                       },
