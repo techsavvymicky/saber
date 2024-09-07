@@ -33,7 +33,7 @@ export const MdxContainer = ({
             </div>
           </div>
 
-          <div className="prose mt-12">{children}</div>
+          <div className="prose mt-12 text-[15px] leading-7">{children}</div>
         </article>
       </div>
     </div>

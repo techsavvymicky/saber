@@ -9,11 +9,12 @@ import {
   UserGroupIcon,
 } from "@heroicons/react/24/outline";
 import {
-  IconArrowMergeAltRight,
   IconBuildingAirport,
   IconBuildingSkyscraper,
   IconCarSuv,
   IconCashRegister,
+  IconChecklist,
+  IconClover,
   IconCurrencyNaira,
   IconEaseInOutControlPoints,
   IconFileAnalytics,
@@ -29,8 +30,6 @@ import {
   IconPresentationAnalytics,
   IconProgress,
   IconReportMoney,
-  IconRosetteDiscount,
-  IconWebhook,
   IconWritingSign,
 } from "@tabler/icons-react";
 import { MenuItem, SubMenu } from "@/components/menu-items";
@@ -96,6 +95,12 @@ export function SiteNavigationMenu() {
             <NavigationMenuContent>
               <div className="w-screen max-w-[30rem] overflow-hidden">
                 <div className="p-2">
+                  <MenuItem
+                    href="/business-reforms/saber"
+                    Icon={IconClover}
+                    title="Saber Program"
+                    description="Details About The Saber Program"
+                  />
                   <SubMenu
                     Icon={IconHomeEdit}
                     title="Property Registration"
@@ -118,25 +123,13 @@ export function SiteNavigationMenu() {
                       },
                     ]}
                   />
-                  <SubMenu
-                    Icon={IconWebhook}
-                    title="Fibre Optics"
-                    description={
-                      "Improved Regulatory Framework in Fibre Optics"
-                    }
-                    subItems={[
-                      {
-                        href: "#",
-                        Icon: IconArrowMergeAltRight,
-                        title: "Right of Way",
-                      },
-                      {
-                        href: "#",
-                        Icon: IconRosetteDiscount,
-                        title: "SITA / Law Fee Schedule",
-                      },
-                    ]}
+                  <MenuItem
+                    href="/business-reforms/right-of-way"
+                    Icon={IconChecklist}
+                    title="Right of Way"
+                    description="Right of Way Permit Application Process"
                   />
+
                   <SubMenu
                     Icon={IconFrame}
                     title="PPP Framework"

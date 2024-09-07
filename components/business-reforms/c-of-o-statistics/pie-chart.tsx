@@ -34,7 +34,7 @@ const chartConfig = {
     color: "hsl(var(--chart-1))",
   },
   female: {
-    label: "Safari",
+    label: "Female",
     color: "hsl(var(--chart-3))",
   },
   joint: {

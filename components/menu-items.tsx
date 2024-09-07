@@ -30,7 +30,10 @@ interface SubMenuItemProps {
 export const MenuItem = ({ href, Icon, title, description }: MenuItemProps) => (
   <div className="group relative flex items-center gap-x-4 rounded-lg p-2 text-sm leading-6 hover:bg-gray-50">
     <div className="flex h-9 w-9 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-      <Icon className="h-6 w-6 text-muted-foreground group-hover:text-emerald-600" />
+      <Icon
+        strokeWidth={1.5}
+        className="h-6 w-6 text-muted-foreground group-hover:text-emerald-600"
+      />
     </div>
     <div className="flex-auto">
       <a href={href} className="block font-semibold text-foreground">
