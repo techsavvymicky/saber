@@ -200,7 +200,7 @@ export function SiteNavigationMenu() {
                     }
                     subItems={[
                       {
-                        href: "#",
+                        href: "/business-reforms/grm-procedure",
                         Icon: IconProgress,
                         title: "Process for Grieviance & Redress Mechanism",
                       },
