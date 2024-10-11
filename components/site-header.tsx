@@ -8,6 +8,7 @@ import {
 import { SiteNavigationMenu } from "@/components/nav-menu";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export const SiteHeader = () => {
   return (
@@ -29,7 +30,9 @@ export const SiteHeader = () => {
             <Button className="rounded-full" variant={"outline"}>
               Online Payment
             </Button>
-            <Button className="rounded-full">Help & Contact</Button>
+            <Link href={"https://tarabastategov.online/upload/"}>
+              <Button className="rounded-full">Help & Contact</Button>
+            </Link>
           </nav>
         </div>
       </div>

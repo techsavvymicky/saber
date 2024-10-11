@@ -324,7 +324,7 @@ export const SiteFooter = () => {
               </li>
               <li className="group">
                 <a
-                  href="#"
+                  href="https://tarabastategov.online/upload/"
                   className="text-sm/6 text-muted-foreground hover:text-foreground"
                 >
                   Help & Contact
